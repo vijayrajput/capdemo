@@ -9,7 +9,7 @@ entity Products {
         title            : localized String @(Common.Label : 'Name');
         description      : localized String;
         availability     : Integer;
-        storage_capacity : Integer;
+        stock : Integer;
         criticality      : Integer;
         price            : Decimal(9, 2);
         currency         : Currency;
